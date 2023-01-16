@@ -1,0 +1,53 @@
+{
+	"groups": [
+	  {
+		"pokemons": [
+		  {
+			"name": "コライドン",
+			"type1": "dragon",
+			"type2": "fighting"
+		  }
+		]
+	  },
+	  {
+		"pokemons": [
+		  {
+			"name": "ピチュー",
+			"type1": "electric",
+			"stage": 0
+		  },
+		  {
+			"name": "ピカチュウ",
+			"type1": "electric",
+			"stage": 1
+		  },
+		  {
+			"name": "ライチュウ",
+			"type1": "electric",
+			"stage": 2
+		  }
+		]
+	  },
+	  {
+		"pokemons": [
+		  {
+			"name": "パモ",
+			"type1": "electric",
+			"stage": 0
+		  },
+		  {
+			"name": "パモット",
+			"type1": "electric",
+			"type2": "fighting",
+			"stage": 1
+		  },
+		  {
+			"name": "パーモット",
+			"type1": "electric",
+			"type2": "fighting",
+			"stage": 2
+		  }
+		]
+	  }
+	]
+  }
