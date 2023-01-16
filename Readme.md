@@ -4,4 +4,4 @@ data create/delete/get for [pokemon_zukan](https://github.com/voidd0g/pokemon_zu
 
 ## Getting started
 
-Download private key from ProjectSettings->Service accounts->Node.js->Generate new private key
+Download private key from Firebase console->roject settings->Service accounts->Node.js->Generate new private key
