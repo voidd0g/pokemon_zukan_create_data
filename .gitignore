@@ -1,2 +1,3 @@
-/node_modules
+.git/
+node_modules/
 pokemon-zukan-28ba3-firebase-adminsdk-d3g3h-2a58ac85e1.json
