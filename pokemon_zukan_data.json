@@ -5,7 +5,8 @@
 		  {
 			"name": "コライドン",
 			"type1": "dragon",
-			"type2": "fighting"
+			"type2": "fighting",
+			"img_path": "1761abfbfecf3fd77323adc7f20c22b6"
 		  }
 		]
 	  },
@@ -14,17 +15,20 @@
 		  {
 			"name": "ピチュー",
 			"type1": "electric",
-			"stage": 0
+			"stage": 0,
+			"img_path": "78023852b48998ab5681e1bdc0d6333a"
 		  },
 		  {
 			"name": "ピカチュウ",
 			"type1": "electric",
-			"stage": 1
+			"stage": 1,
+			"img_path": "5bb0cfd44302cd4df0c0c88d37457931"
 		  },
 		  {
 			"name": "ライチュウ",
 			"type1": "electric",
-			"stage": 2
+			"stage": 2,
+			"img_path": "b044779bd695701e03dd7b3bc83421e9"
 		  }
 		]
 	  },
@@ -33,19 +37,22 @@
 		  {
 			"name": "パモ",
 			"type1": "electric",
-			"stage": 0
+			"stage": 0,
+			"img_path": "312917a2b5f9e66a6f47ada0d388ff6d"
 		  },
 		  {
 			"name": "パモット",
 			"type1": "electric",
 			"type2": "fighting",
-			"stage": 1
+			"stage": 1,
+			"img_path": "838de1a69f70fa4090aeab7ac22b4417"
 		  },
 		  {
 			"name": "パーモット",
 			"type1": "electric",
 			"type2": "fighting",
-			"stage": 2
+			"stage": 2,
+			"img_path": "043793d947032e02953d878328ac9799"
 		  }
 		]
 	  }
