@@ -27,6 +27,7 @@ async function getData(){
             console.log(`\t\t\t\t\"type2\": \"${pokDocs[j].get('type2')}\"`);
             console.log(`\t\t\t\t\"stage\": ${pokDocs[j].get('stage')}`);
             console.log(`\t\t\t\t\"form\": ${pokDocs[j].get('form')}`);
+            console.log(`\t\t\t\t\"img_path\": ${pokDocs[j].get('img_path')}`);
             console.log('\t\t\t}' + (j != pokDocs.length - 1 ? ',' : ''));
         }
         console.log('\t\t]');
@@ -58,12 +59,14 @@ async function createData(){
             var type2 = pokemons[j]['type2'] != null ? pokemons[j]['type2'] : null;
             var stage = pokemons[j]['stage'] != null ? pokemons[j]['stage'] : 0;
             var form = pokemons[j]['form'] != null ? pokemons[j]['form'] : 0;
+            var img_path = pokemons[j]['img_path'];
             await db.collection('groups').doc(groupID).collection('pokemons').doc(`${stage}-${form}`).set({
                 'name': pokName,
                 'type1': type1,
                 'type2': type2,
                 'stage': stage,
                 'form': form,
+                'img_path': img_path,
             });
         }
     }
